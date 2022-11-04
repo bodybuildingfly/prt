@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">3444aa6a24451110606408f80491c46b</applicability>
+        <order>0</order>
+        <screen/>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:11</sys_created_on>
+        <sys_id>b844aa6aba451110ffb820dc32aa1a68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_b844aa6aba451110ffb820dc32aa1a68</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:11</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

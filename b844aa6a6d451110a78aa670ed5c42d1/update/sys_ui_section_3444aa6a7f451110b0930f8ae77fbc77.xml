@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3444aa6a7f451110b0930f8ae77fbc77" sys_domain="global" table="x_868595_prt_performance_review" version="3" view="emp_mgr_feedback_x_868595_prt">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>bc44aa6a6c45111047d71337b3694576</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <text>&lt;span style="font-family: 'Cabin'; font-size: 24px; font-weight: 600; color: black;"&gt;This Past Year&lt;/span&gt;</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>f044aa6aa0451110e883afa385420376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <text>&lt;span style="font-family: 'Cabin'; font-size: 24px; font-weight: 600; color: black"&gt;Your Role&lt;/span&gt;</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>3444aa6ac44511108dc33e78ec235676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <text>&lt;span style="font-family: 'Cabin'; font-size: 24px; font-weight: 600; color: black"&gt;Looking Forward&lt;/span&gt;</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_feedback</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>f044aa6aad451110136615203d0c9777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bc44aa6a6c45111047d71337b3694576</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>7044aa6aa74511101b38f05e96d57177</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>projects_current</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>3c44aa6a66451110f9cba739f3b38876</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_proud</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>7444aa6a9c45111066be598b48ec9176</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>done_differently</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>f844aa6a224511102bceaf7530fb7376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>f044aa6aa0451110e883afa385420376</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>b444aa6a7c451110ad71765e10487b76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>excel_at_job</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>3844aa6a36451110b885770598bd6076</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_done</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>7044aa6acd451110858e063023355b76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>areas_more_feedback</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>7844aa6aca451110f19549cd150b0b76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3444aa6ac44511108dc33e78ec235676</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>b044aa6a83451110c65e8a1801e80676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>upcoming_projects</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>b844aa6abc451110449929193800d376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>future_goals</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>3044aa6a1e451110eb756be1f29bc376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_id>f444aa6aca4511108dcb35f4a9071876</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_868595_prt_performance_review" sys_domain="global" view="3044aa6a37451110ddef6ff862591577">3444aa6a7f451110b0930f8ae77fbc77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_868595_prt_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3444aa6a7f451110b0930f8ae77fbc77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_868595_prt_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+            <sys_update_name>sys_ui_section_3444aa6a7f451110b0930f8ae77fbc77</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Emp Mgr feedback (x_868595_prt)" name="emp_mgr_feedback_x_868595_prt">3044aa6a37451110ddef6ff862591577</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

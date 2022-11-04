@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_868595_prt.pr_updated</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+	var gDateTime = new GlideDateTime(current.sys_updated_on.getDisplayValue());
+	var gDate = gDateTime.getDate();
+	var longDateTime = gDate.getByFormat('MMM dd, YYYY');
+	template.print(longDateTime);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:53</sys_created_on>
+        <sys_id>f044aa6ad4451110a8452cea998ff38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_868595_prt.pr_updated</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_script_email_f044aa6ad4451110a8452cea998ff38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:53</sys_updated_on>
+    </sys_script_email>
+</record_update>

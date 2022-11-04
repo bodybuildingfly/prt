@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_layout_item">
+    <sys_ux_m2m_action_layout_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <sys_class_name>sys_ux_m2m_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:45</sys_created_on>
+        <sys_id>7044aa6aec4511103cf0bd54b35f5553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_layout_item_7044aa6aec4511103cf0bd54b35f5553</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:45</sys_updated_on>
+        <table>global</table>
+        <ux_form_action_layout display_value="Evaluation Draft">b844aa6a0545111013b60d9576153e6b</ux_form_action_layout>
+        <ux_form_action_layout_item display_value="Send">fc44aa6afa4511104a3a802bf16e6a53</ux_form_action_layout_item>
+    </sys_ux_m2m_action_layout_item>
+</record_update>

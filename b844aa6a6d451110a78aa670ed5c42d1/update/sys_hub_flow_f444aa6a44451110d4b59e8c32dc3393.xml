@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-trackapptemplates-12-11-2020</compiler_build>
+        <copied_from>b3c4d15e2cb06010f87744bfcc0ea352</copied_from>
+        <copied_from_name>Performance Review Send PR Emplo</copied_from_name>
+        <description>This flow will trigger the PR Employee Complete Evaluation email</description>
+        <internal_name>x_868595_prt.perf_review__send_pr_employ</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.manager","label":"Trigger➛Performance Review Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_perf_review_performance_review","column_name":"manager"},{"name":"c09c2a86-258e-4ea7-98ef-c1964f7fdbbb.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger➛Performance Review Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_snc_perf_review_performance_review","column_name":"state"}]</label_cache>
+        <master_snapshot>3044aa6a66451110537d7c30649f7893</master_snapshot>
+        <name>Perf Review - Send PR Employee Complete Evaluation email</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>b444aa6afe451110e36c06a4f247ef93</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f444aa6a44451110d4b59e8c32dc3393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Perf Review - Send PR Employee Complete Evaluation email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_hub_flow_f444aa6a44451110d4b59e8c32dc3393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f444aa6a44451110d4b59e8c32dc3393^sys_idNOT IN7044aa6a9145111042bf1fb9b4d91893"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Perf Review - Send PR Employee Complete Evaluation email">f444aa6a44451110d4b59e8c32dc3393</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>7044aa6a9145111042bf1fb9b4d91893</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7044aa6a9145111042bf1fb9b4d91893"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7044aa6a9145111042bf1fb9b4d91893</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>3444aa6a5c451110b921152cc5a55e93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <value>x_868595_prt_performance_review</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7044aa6a9145111042bf1fb9b4d91893</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>b044aa6a8e451110534147f73ac81e93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <value>active=true^employeeISNOTEMPTY</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f444aa6a44451110d4b59e8c32dc3393^sys_idNOT IN7444aa6aa04511105aa1cec7eb6e2693"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f444aa6a44451110d4b59e8c32dc3393</id>
+        <name>Perf Review - Send PR Employee Complete Evaluation email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>7444aa6aa04511105aa1cec7eb6e2693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7444aa6aa04511105aa1cec7eb6e2693"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f444aa6a44451110d4b59e8c32dc3393^sys_idNOT IN3844aa6a764511106f4eba356fdc6f92,f044aa6a02451110f37bafc0a3067d93"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Perf Review - Send PR Employee Complete Evaluation email">f444aa6a44451110d4b59e8c32dc3393</model>
+        <model_id>f444aa6a44451110d4b59e8c32dc3393</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f444aa6a44451110d4b59e8c32dc3393</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>3844aa6a764511106f4eba356fdc6f92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Perf Review - Send PR Employee Complete Evaluation email">f444aa6a44451110d4b59e8c32dc3393</model>
+        <model_id>f444aa6a44451110d4b59e8c32dc3393</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f444aa6a44451110d4b59e8c32dc3393</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>f044aa6a02451110f37bafc0a3067d93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f444aa6a44451110d4b59e8c32dc3393^sys_idNOT IN3c44aa6aa145111014bbd3595c8da592"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment>PR Employee Complete Evaluation</comment>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Perf Review - Send PR Employee Complete Evaluation email">f444aa6a44451110d4b59e8c32dc3393</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>3c44aa6aa145111014bbd3595c8da592</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <ui_id>2bde420d-4d57-41c5-a866-8b7e0641da6f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3c44aa6aa145111014bbd3595c8da592"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3c44aa6aa145111014bbd3595c8da592</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>b844aa6a06451110bdd2e91acaf0fe92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <value>x_868595_prt_performance_review</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3c44aa6aa145111014bbd3595c8da592</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>bc44aa6ad64511102008b8347ae4aa92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <value>fc44aa6ab44511101328892935a038c6</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3c44aa6aa145111014bbd3595c8da592"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3c44aa6aa145111014bbd3595c8da592</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>7c44aa6a5b45111062278559f0f0b892</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3c44aa6aa145111014bbd3595c8da592"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3c44aa6aa145111014bbd3595c8da592"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f444aa6a44451110d4b59e8c32dc3393^sys_idNOT IN7844aa6a1b4511103e4381de9a585192,f444aa6a0445111016c8f6808a734d92"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f444aa6a44451110d4b59e8c32dc3393</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>7844aa6a1b4511103e4381de9a585192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f87dd412dd8ee010f8773b70f0ff19b6_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f444aa6a44451110d4b59e8c32dc3393</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>f444aa6a0445111016c8f6808a734d92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f87dd412dd8ee010f8773b70f0ff19b6_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f444aa6a44451110d4b59e8c32dc3393^sys_idNOT INf844aa6a8745111029a55c86e7f9e092"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"70f02c16dd8ee010f8773b70f0ff193b","name":"plan"}}</plan>
+        <plan_id>f444aa6a44451110d4b59e8c32dc3393</plan_id>
+        <snapshot>3844aa6a1045111093bc2e71d88c9d93</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f844aa6a8745111029a55c86e7f9e092</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <trigger display_value="">3c44aa6abf451110dea23ea038923ecf</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f444aa6a44451110d4b59e8c32dc3393"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow will trigger the PR Employee Complete Evaluation email</description>
+        <internal_name>x_868595_prt.perf_review__send_pr_employ</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.manager","label":"Trigger➛Performance Review Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_perf_review_performance_review","column_name":"manager"},{"name":"c09c2a86-258e-4ea7-98ef-c1964f7fdbbb.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger➛Performance Review Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_snc_perf_review_performance_review","column_name":"state"}]</label_cache>
+        <master>true</master>
+        <name>Perf Review - Send PR Employee Complete Evaluation email</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Perf Review - Send PR Employee Complete Evaluation email">f444aa6a44451110d4b59e8c32dc3393</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3044aa6a66451110537d7c30649f7893</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3044aa6a66451110537d7c30649f7893"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3044aa6a66451110537d7c30649f7893"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3044aa6a66451110537d7c30649f7893^sys_idNOT INfc44aa6a3845111099091f6ceb1d7992"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Perf Review - Send PR Employee Complete Evaluation email">3044aa6a66451110537d7c30649f7893</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>fc44aa6a3845111099091f6ceb1d7992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fc44aa6a3845111099091f6ceb1d7992"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fc44aa6a3845111099091f6ceb1d7992</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>7444aa6a6045111039cfa2bc4bcebb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <value>active=true^employeeISNOTEMPTY</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fc44aa6a3845111099091f6ceb1d7992</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>f044aa6a39451110041a7ef5a4410892</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <value>x_868595_prt_performance_review</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3044aa6a66451110537d7c30649f7893"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3044aa6a66451110537d7c30649f7893^sys_idNOT INb044aa6a9b451110494759b0ff95c492"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3044aa6a66451110537d7c30649f7893</id>
+        <name>Perf Review - Send PR Employee Complete Evaluation email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>b044aa6a9b451110494759b0ff95c492</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b044aa6a9b451110494759b0ff95c492"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3044aa6a66451110537d7c30649f7893^sys_idNOT IN3444aa6a43451110b8ef8004ade03f92,b444aa6a404511109f5c4a8c74667492"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Perf Review - Send PR Employee Complete Evaluation email">3044aa6a66451110537d7c30649f7893</model>
+        <model_id>3044aa6a66451110537d7c30649f7893</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3044aa6a66451110537d7c30649f7893</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>3444aa6a43451110b8ef8004ade03f92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Perf Review - Send PR Employee Complete Evaluation email">3044aa6a66451110537d7c30649f7893</model>
+        <model_id>3044aa6a66451110537d7c30649f7893</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3044aa6a66451110537d7c30649f7893</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>b444aa6a404511109f5c4a8c74667492</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=3044aa6a66451110537d7c30649f7893"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3044aa6a66451110537d7c30649f7893"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3044aa6a66451110537d7c30649f7893^sys_idNOT IN7044aa6a2d451110f66858bf9ddc3192"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="">44be7444b58e2010f877ba1a8373bddd</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment>PR Employee Complete Evaluation</comment>
+        <compiled_snapshot>44be7444b58e2010f877ba1a8373bddd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Perf Review - Send PR Employee Complete Evaluation email">3044aa6a66451110537d7c30649f7893</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>7044aa6a2d451110f66858bf9ddc3192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <ui_id>2bde420d-4d57-41c5-a866-8b7e0641da6f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7044aa6a2d451110f66858bf9ddc3192"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7044aa6a2d451110f66858bf9ddc3192</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>3044aa6a56451110a363c4f7fa2b6e92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <value>x_868595_prt_performance_review</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7044aa6a2d451110f66858bf9ddc3192</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>fc44aa6a23451110668142dcce77aa91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <value>fc44aa6ab44511101328892935a038c6</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7044aa6a2d451110f66858bf9ddc3192"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7044aa6a2d451110f66858bf9ddc3192"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3044aa6a66451110537d7c30649f7893"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3044aa6a66451110537d7c30649f7893"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3044aa6a66451110537d7c30649f7893"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3044aa6a66451110537d7c30649f7893"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3044aa6a66451110537d7c30649f7893"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3044aa6a66451110537d7c30649f7893"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3044aa6a66451110537d7c30649f7893"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3044aa6a66451110537d7c30649f7893"/>
+    <sys_hub_flow action="update">
+        <sys_id>f444aa6a44451110d4b59e8c32dc3393</sys_id>
+        <latest_snapshot>3044aa6a66451110537d7c30649f7893</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

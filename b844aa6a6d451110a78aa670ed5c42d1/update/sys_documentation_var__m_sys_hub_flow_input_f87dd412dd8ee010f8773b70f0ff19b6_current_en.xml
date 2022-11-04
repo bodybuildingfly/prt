@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="current" label="Record" language="en" table="var__m_sys_hub_flow_input_f444aa6a44451110d4b59e8c32dc3393">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>current</element>
+            <help/>
+            <hint/>
+            <label>Record</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_f444aa6a44451110d4b59e8c32dc3393</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>7844aa6a1b4511103e4381de9a585192</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Record</sys_name>
+            <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f87dd412dd8ee010f8773b70f0ff19b6_current_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

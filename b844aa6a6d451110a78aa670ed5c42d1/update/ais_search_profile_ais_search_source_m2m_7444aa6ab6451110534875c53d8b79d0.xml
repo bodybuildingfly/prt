@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="Performance Review Default Search Profile">b844aa6abb4511100802de83aa34dad0</profile>
+        <search_source display_value="Performance Review Source">f444aa6ac145111079ba6ba8fc2672d0</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:11</sys_created_on>
+        <sys_id>7444aa6ab6451110534875c53d8b79d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Default Search Profile.Performance Review Source</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_7444aa6ab6451110534875c53d8b79d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:11</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

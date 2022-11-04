@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description>update requested  ux form actions.</description>
+        <name>Update Requested</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:00</sys_created_on>
+        <sys_id>7c44aa6aaa45111095fd881c0c7a7454</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Requested</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_form_action_7c44aa6aaa45111095fd881c0c7a7454</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:00</sys_updated_on>
+        <table>x_868595_prt_performance_review</table>
+        <ui_action display_value="Update Requested">f444aa6a044511109ce741ecd2040d81</ui_action>
+    </sys_ux_form_action>
+</record_update>

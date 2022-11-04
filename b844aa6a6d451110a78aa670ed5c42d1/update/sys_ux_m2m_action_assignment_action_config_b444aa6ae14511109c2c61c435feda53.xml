@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_assignment_action_config">
+    <sys_ux_m2m_action_assignment_action_config action="INSERT_OR_UPDATE">
+        <action_assignment display_value="update_requested_pr">3c44aa6a6845111033fb0da3427451bd</action_assignment>
+        <action_configuration display_value="Performance Review Action Config">b044aa6a364511107ae399ce7b888c6e</action_configuration>
+        <sys_class_name>sys_ux_m2m_action_assignment_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:53</sys_created_on>
+        <sys_id>b444aa6ae14511109c2c61c435feda53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_assignment_action_config_b444aa6ae14511109c2c61c435feda53</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:53</sys_updated_on>
+    </sys_ux_m2m_action_assignment_action_config>
+</record_update>

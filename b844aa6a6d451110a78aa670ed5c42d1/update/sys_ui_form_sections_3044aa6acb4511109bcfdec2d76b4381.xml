@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3044aa6acb4511109bcfdec2d76b4381" sys_domain="global" table="x_868595_prt_performance_review" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b844aa6ab145111094dcc87ff57d5980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_868595_prt_performance_review" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">3044aa6acb4511109bcfdec2d76b4381</sys_ui_form>
+            <sys_ui_section caption="Review Schedule" display_value="Review Schedule" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7044aa6a10451110f62b3aeaf710c880</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f044aa6ac2451110bca14024ad72d580</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_868595_prt_performance_review" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">3044aa6acb4511109bcfdec2d76b4381</sys_ui_form>
+            <sys_ui_section caption="Employees to be reviewed" display_value="Employees to be reviewed" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">3c44aa6ac645111017fd420f062cef80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f844aa6a864511103ad3249d22dcd580</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_868595_prt_performance_review" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">3044aa6acb4511109bcfdec2d76b4381</sys_ui_form>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_868595_prt_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3044aa6acb4511109bcfdec2d76b4381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_868595_prt_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3044aa6acb4511109bcfdec2d76b4381</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Edit Settings (x_868595_prt)" name="settings_x_868595_prt">b044aa6ad1451110c58d5046de8a0e80</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

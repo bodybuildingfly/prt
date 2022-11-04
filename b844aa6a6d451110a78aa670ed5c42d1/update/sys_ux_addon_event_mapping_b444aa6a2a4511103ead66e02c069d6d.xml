@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>declarative action update request event map</description>
+        <name>Update Requested PR (DA)</name>
+        <parent_macroponent display_value="Record">3c44aa6ab045111038eb56e09782bb6d</parent_macroponent>
+        <source_da display_value="update_requested_pr">3c44aa6a6845111033fb0da3427451bd</source_da>
+        <source_element_id> ui_action_bar</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b444aa6a2a4511103ead66e02c069d6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Requested PR (DA)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_b444aa6a2a4511103ead66e02c069d6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:53</sys_updated_on>
+        <target_event display_value="Update Requested PR">3844aa6aa04511105e5526d86f1e4d6d</target_event>
+        <target_payload_mapping>{&#13;
+    "type": "MAP_CONTAINER",&#13;
+    "container": {&#13;
+        "sysId": {&#13;
+            "type": "EVENT_PAYLOAD_BINDING",&#13;
+            "binding": {&#13;
+                "address": [&#13;
+                    "sysId"&#13;
+                ]&#13;
+            }&#13;
+        }&#13;
+    }&#13;
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

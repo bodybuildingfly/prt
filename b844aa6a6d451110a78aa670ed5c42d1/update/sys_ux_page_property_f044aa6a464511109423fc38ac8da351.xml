@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="PRT Portal">fc44aa6ab1451110d726ef8640ab4ad0</page>
+        <required_translations>[ {
+  "message" : "Logout",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+} ]</required_translations>
+        <route display_value="search">3044aa6a324511108ddf35b951a37d65</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>f044aa6a464511109423fc38ac8da351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_page_property_f044aa6a464511109423fc38ac8da351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:59</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_868595_prt.fc44aa6ab1451110d726ef8640ab4ad0.route.chrome_header.3044aa6a324511108ddf35b951a37d65</unique_name>
+        <value>{&#13;
+  "privatePage": {&#13;
+    "notificationsEnabled": true,&#13;
+    "searchEnabled": true,&#13;
+    "userPrefsEnabled": true,&#13;
+    "globalTools": {&#13;
+      "collapsingMenuId": 0,&#13;
+      "primaryItems": [&#13;
+        {&#13;
+          "label": "UserMenu",&#13;
+          "icon": "user",&#13;
+          "type": "menu",&#13;
+          "primaryDisplay": "icon",&#13;
+          "value": {&#13;
+            "children": [&#13;
+              {&#13;
+                "label": "Logout",&#13;
+                "type": "navigation",&#13;
+                "position": 200,&#13;
+                "value": {&#13;
+                  "value": {&#13;
+                    "href": "/x/868595/x_868595_prt-pr/portal/login"&#13;
+                  },&#13;
+                  "type": ""&#13;
+                }&#13;
+              }&#13;
+            ]&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "secondaryItems": []&#13;
+    }&#13;
+  },&#13;
+  "publicPage": {&#13;
+"logoRoute": {&#13;
+                "type":"route",&#13;
+                "value": {&#13;
+                    "route": "home",&#13;
+                    "fields": {}&#13;
+                }&#13;
+        },&#13;
+    "actionButtons": []&#13;
+  }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=f044aa6a464511109423fc38ac8da351"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="pr_click_action">fc44aa6a734511107b5d630ef3b29bbd</declarative_action_assignment>
+        <predicate display_value="Performance Review Historical">fc44aa6a034511100c7f83d65685f559</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>7444aa6ae64511103d85b8abbb2e0250</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_7444aa6ae64511103d85b8abbb2e0250</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

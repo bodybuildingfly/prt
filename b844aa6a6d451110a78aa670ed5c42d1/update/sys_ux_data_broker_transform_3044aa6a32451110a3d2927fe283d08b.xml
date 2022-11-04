@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_868595_prt.Performance Review Search genius Transform</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Performance Review Search genius Transform</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{&#13;
+  "name": "search_genius_transform_1",&#13;
+  "label": "Search genius Transform 1",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "object",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": {}&#13;
+}]</props>
+        <required_translations>[{"message":"Search genius Transform 1","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+    input.search_genius_transform_1.items = input.search_genius_transform_1.items.map(function(item) {
+
+        // set the propvalue to display
+        // transform the title to include 'Evaluation for'
+        item.propValues.heading = gs.getMessage('Evaluation for: {0}', item.propValues.model['columns.review_period']);
+
+        return item;
+
+    });
+    return input.search_genius_transform_1 ;
+
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:39</sys_created_on>
+        <sys_id>3044aa6a32451110a3d2927fe283d08b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Search genius Transform</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_3044aa6a32451110a3d2927fe283d08b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:39</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=3044aa6a32451110a3d2927fe283d08b"/>
+</record_update>

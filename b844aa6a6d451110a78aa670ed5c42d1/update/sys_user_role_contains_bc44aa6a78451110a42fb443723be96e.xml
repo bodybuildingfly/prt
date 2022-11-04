@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_868595_prt.employee" name="x_868595_prt.employee">7444aa6aa345111042bd72d0b6be43d1</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:36</sys_created_on>
+        <sys_id>bc44aa6a78451110a42fb443723be96e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_user_role_contains_bc44aa6a78451110a42fb443723be96e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:36</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

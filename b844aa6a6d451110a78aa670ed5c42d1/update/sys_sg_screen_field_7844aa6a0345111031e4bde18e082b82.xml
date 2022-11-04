@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>number</data_item_field_name>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>60</order>
+        <record_id_field/>
+        <screen display_value="Details">f044aa6aa245111054c8285a8d291c83</screen>
+        <screen_data_item_table>x_868595_prt_performance_review</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:47</sys_created_on>
+        <sys_id>7844aa6a0345111031e4bde18e082b82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_sg_screen_field_7844aa6a0345111031e4bde18e082b82</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:47</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+</record_update>

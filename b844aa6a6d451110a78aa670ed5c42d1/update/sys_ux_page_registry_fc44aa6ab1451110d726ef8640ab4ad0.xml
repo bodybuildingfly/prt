@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>7c44aa6ae24511106b29c863a90816d0</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login", "logout": "login", "custom404":"custom404"}</auth_routes>
+        <page/>
+        <parent_app/>
+        <path>x_868595_prt-pr/portal</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:39</sys_created_on>
+        <sys_id>fc44aa6ab1451110d726ef8640ab4ad0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRT Portal</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_page_registry_fc44aa6ab1451110d726ef8640ab4ad0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:39</sys_updated_on>
+        <title>PRT Portal</title>
+    </sys_ux_page_registry>
+</record_update>

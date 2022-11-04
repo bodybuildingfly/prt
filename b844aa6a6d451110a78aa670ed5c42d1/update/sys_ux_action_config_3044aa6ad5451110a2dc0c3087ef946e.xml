@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_action_config">
+    <sys_ux_action_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description/>
+        <name>PR Update Requested</name>
+        <sys_class_name>sys_ux_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:48</sys_created_on>
+        <sys_id>3044aa6ad5451110a2dc0c3087ef946e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PR Update Requested</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_action_config_3044aa6ad5451110a2dc0c3087ef946e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:48</sys_updated_on>
+    </sys_ux_action_config>
+</record_update>

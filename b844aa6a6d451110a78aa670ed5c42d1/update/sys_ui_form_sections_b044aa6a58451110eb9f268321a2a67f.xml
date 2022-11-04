@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b044aa6a58451110eb9f268321a2a67f" sys_domain="global" table="x_868595_prt_performance_review" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7044aa6a7f451110d5dc2165992db57f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_868595_prt_performance_review" name="x_868595_prt_performance_review" sys_domain="global" view="f844aa6a89451110e04eddc99c01457f">b044aa6a58451110eb9f268321a2a67f</sys_ui_form>
+            <sys_ui_section caption="Past Year" display_value="Past Year" name="x_868595_prt_performance_review" sys_domain="global" view="f844aa6a89451110e04eddc99c01457f">f444aa6ab44511107cb3e70e19e98a7f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3844aa6a204511102961558becc7dc7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_868595_prt_performance_review" name="x_868595_prt_performance_review" sys_domain="global" view="f844aa6a89451110e04eddc99c01457f">b044aa6a58451110eb9f268321a2a67f</sys_ui_form>
+            <sys_ui_section caption="Your role" display_value="Your role" name="x_868595_prt_performance_review" sys_domain="global" view="f844aa6a89451110e04eddc99c01457f">3044aa6ae745111083eb4f0263b0da7f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b444aa6a4245111000649a5d6bea997e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_868595_prt_performance_review" name="x_868595_prt_performance_review" sys_domain="global" view="f844aa6a89451110e04eddc99c01457f">b044aa6a58451110eb9f268321a2a67f</sys_ui_form>
+            <sys_ui_section caption="Looking forward" display_value="Looking forward" name="x_868595_prt_performance_review" sys_domain="global" view="f844aa6a89451110e04eddc99c01457f">f444aa6a484511100b369f4a96f5d27e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_868595_prt_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b044aa6a58451110eb9f268321a2a67f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_868595_prt_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b044aa6a58451110eb9f268321a2a67f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Self Review WS (x_868595_prt)" name="self_review_ws_x_868595_prt">f844aa6a89451110e04eddc99c01457f</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

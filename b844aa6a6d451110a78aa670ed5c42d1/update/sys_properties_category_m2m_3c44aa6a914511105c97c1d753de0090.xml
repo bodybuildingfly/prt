@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="x_868595_prt.Performance Review">fc44aa6a86451110428403f12c9f1290</category>
+        <order>700</order>
+        <property display_value="x_868595_prt.mgr_empty_notify" name="x_868595_prt.mgr_empty_notify">7c44aa6a514511105ee868a70d506090</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:06</sys_created_on>
+        <sys_id>3c44aa6a914511105c97c1d753de0090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_868595_prt.mgr_empty_notify.x_868595_prt.Performance Review</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_3c44aa6a914511105c97c1d753de0090</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:06</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

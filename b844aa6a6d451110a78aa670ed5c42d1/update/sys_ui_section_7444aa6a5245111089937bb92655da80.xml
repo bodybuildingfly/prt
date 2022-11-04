@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notification settings" section_id="7444aa6a5245111089937bb92655da80" sys_domain="global" table="x_868595_prt_performance_review" version="3" view="settings_x_868595_prt">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>b444aa6a5f45111078560936a6101e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review_process_schedule</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>bc44aa6a494511103d7a02cbfdc45c6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>7044aa6a634511107489e4162c0b0f70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>b844aa6ad24511101eb865562066556f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>note</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>fc44aa6a094511107c4af47c8148bd6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>b044aa6a5845111037c0784a632c0d70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_prompt_self_review</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>f844aa6a92451110cceeedd64aa9656f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>evaluation_due</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>b444aa6a864511104d09f1f770a3916f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notify_if_manager_isn_t_specified</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>3044aa6a224511101c3073df8d65736f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>f444aa6a4e45111094b03ed08e5ff36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notify_reminder</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>f044aa6a36451110475a55116aadf26f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>3844aa6ad445111039ff0d05320be26f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title_empty_notify</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>fc44aa6ab745111078c6d268db1cdb6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_id>3444aa6ab3451110d43b0c5e3ab6726f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_868595_prt_performance_review" sys_domain="global" view="b044aa6ad1451110c58d5046de8a0e80">7444aa6a5245111089937bb92655da80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notification settings</caption>
+            <header>false</header>
+            <name>x_868595_prt_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7444aa6a5245111089937bb92655da80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_868595_prt_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+            <sys_update_name>sys_ui_section_7444aa6a5245111089937bb92655da80</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Edit Settings (x_868595_prt)" name="settings_x_868595_prt">b044aa6ad1451110c58d5046de8a0e80</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

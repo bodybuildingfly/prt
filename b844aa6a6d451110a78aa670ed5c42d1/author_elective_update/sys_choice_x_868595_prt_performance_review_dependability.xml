@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dependability" table="x_868595_prt_performance_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dependability</element>
+            <name>x_868595_prt_performance_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id>3744ae6a474511104a6b016a436d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>dependability</sys_name>
+            <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+            <sys_update_name>sys_choice_x_868595_prt_performance_review_dependability</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dependability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Below expectations</label>
+            <language>en</language>
+            <name>x_868595_prt_performance_review</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b444aa6aed45111065b589f5a621a3c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:41</sys_updated_on>
+            <value>1 - Below expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dependability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Meets expectations</label>
+            <language>en</language>
+            <name>x_868595_prt_performance_review</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7444aa6a974511109fab9209e4a20cc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:41</sys_updated_on>
+            <value>2 - Meets expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dependability</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Exceeds expectations</label>
+            <language>en</language>
+            <name>x_868595_prt_performance_review</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c44aa6a55451110369fd701ac066ac3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:41</sys_updated_on>
+            <value>3 - Exceeds expectations</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

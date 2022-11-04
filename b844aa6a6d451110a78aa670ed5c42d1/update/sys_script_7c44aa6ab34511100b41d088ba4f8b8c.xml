@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_868595_prt_performance_review</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>PR one review for employee per period</name>
+        <order>1000</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    try {
+        // search for matching record for same employee and same review period
+        var reviewRec = new GlideRecord('x_868595_prt_performance_review');
+        reviewRec.addQuery('employee', current.getValue('employee'));
+        reviewRec.addQuery('review_period', current.getValue('review_period'));
+        reviewRec.query();
+        if (reviewRec.next()) {
+            gs.addErrorMessage(gs.getMessage('Review already exist for employee for the review period: {0}',reviewRec.number));
+            current.setAbortAction(true);
+        }
+    } catch (err) {
+        gs.error("BR: {0} has encountered the following error: {1}", 'PR one review for employee per period', err);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c44aa6ab34511100b41d088ba4f8b8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PR one review for employee per period</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_script_7c44aa6ab34511100b41d088ba4f8b8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:34</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c44aa6ab34511100b41d088ba4f8b8c"/>
+</record_update>

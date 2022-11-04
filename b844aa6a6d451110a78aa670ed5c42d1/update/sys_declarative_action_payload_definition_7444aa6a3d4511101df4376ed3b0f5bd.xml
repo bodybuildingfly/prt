@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>pr_genius_click_action</action_key>
+        <applicable_to>035d270073151010c342d5fdbdf6a715</applicable_to>
+        <description>Action payload definition used by the Genius results click action.</description>
+        <label>Genius Click Action</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_7444aa6a3d4511101df4376ed3b0f5bd</payload_field_table>
+        <payload_template>{&#13;
+        "table": "{{columns.table}}",&#13;
+        "sysId": "{{columns.sys_id}}",&#13;
+        "url": "{{columns.url}}",&#13;
+"status":"{{columns.state}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:40</sys_created_on>
+        <sys_id>7444aa6a3d4511101df4376ed3b0f5bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Genius Click Action</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_7444aa6a3d4511101df4376ed3b0f5bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:40</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

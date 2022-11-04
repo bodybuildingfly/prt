@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>settingsView</name>
+        <page display_value="PRT Workspace">3044aa6a49451110eaa4c32b73a33ad1</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>7c44aa6ad4451110c937cdb122bea151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>settingsView</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_page_property_7c44aa6ad4451110c937cdb122bea151</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:47</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_868595_prt.3044aa6a49451110eaa4c32b73a33ad1.root.settingsView</unique_name>
+        <value>settings_x_868595_prt</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c44aa6ad4451110c937cdb122bea151"/>
+</record_update>

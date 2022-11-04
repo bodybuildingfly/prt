@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>manager_feedback</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:54</sys_created_on>
+        <sys_id>3c44aa6ad84511104f0c76713d08447b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>manager_feedback</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3c44aa6ad84511104f0c76713d08447b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:54</sys_updated_on>
+        <table>x_868595_prt_performance_review</table>
+        <ui_policy display_value="Hide Confirmation on MGR page">b044aa6a8f45111057a96c7eeb97c47d</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

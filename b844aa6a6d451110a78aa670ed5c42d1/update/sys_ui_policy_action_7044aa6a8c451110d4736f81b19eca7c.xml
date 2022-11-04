@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>state</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:19:37</sys_created_on>
+        <sys_id>7044aa6a8c451110d4736f81b19eca7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7044aa6a8c451110d4736f81b19eca7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:19:37</sys_updated_on>
+        <table>x_868595_prt_performance_review</table>
+        <ui_policy display_value="Hide Status Field on Portal Emp Mgr feedback">3c44aa6ad145111048fbec7d96657c7c</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

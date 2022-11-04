@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="honesty" table="x_868595_prt_performance_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>honesty</element>
+            <name>x_868595_prt_performance_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id>8554ee6a474511104a6b016a436d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>honesty</sys_name>
+            <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+            <sys_update_name>sys_choice_x_868595_prt_performance_review_honesty</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>honesty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Below expectations</label>
+            <language>en</language>
+            <name>x_868595_prt_performance_review</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c44aa6a7b45111074283d0ec6b096c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:46</sys_updated_on>
+            <value>1 - Below expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>honesty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Meets expectations</label>
+            <language>en</language>
+            <name>x_868595_prt_performance_review</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7044aa6af8451110a84848151692ecc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:46</sys_updated_on>
+            <value>2 - Meets expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>honesty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Exceeds expectations</label>
+            <language>en</language>
+            <name>x_868595_prt_performance_review</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-04 15:19:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc44aa6a10451110e84563e475315cc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-04 15:19:46</sys_updated_on>
+            <value>3 - Exceeds expectations</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

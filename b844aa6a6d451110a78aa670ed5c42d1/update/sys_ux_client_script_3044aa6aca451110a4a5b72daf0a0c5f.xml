@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Evaluation Settings">7044aa6a414511109151ac59bfa3c467</macroponent>
+        <name>Update Schedule Frequency</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    var newFreq = event.payload.item.id;
+    api.setState('schedule_new_val', newFreq);
+    api.data.pr_form_es.setValue({
+        fieldName: 'review_frequency',
+        value: newFreq
+    });
+    
+    var revType = newFreq;
+    if(revType != "0" && revType != "6" && revType != "12"){
+        revType = '';
+    }
+    api.data.pr_form_es.setValue({
+        fieldName: 'review_process_schedule',
+        value: revType
+    });
+}
+
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:09</sys_created_on>
+        <sys_id>3044aa6aca451110a4a5b72daf0a0c5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Schedule Frequency</sys_name>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_client_script_3044aa6aca451110a4a5b72daf0a0c5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:09</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Performance Review System Property">3444aa6a2f4511103730a623253c065c</dataset>
+        <order>0</order>
+        <predicate_bundle display_value="Perf Review Sys Prop">3844aa6a5445111003063d7a78a3665a</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 15:20:10</sys_created_on>
+        <sys_id>bc44aa6a9c4511107fa76694fccbf45a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PRT" source="x_868595_prt">b844aa6a6d451110a78aa670ed5c42d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRT">b844aa6a6d451110a78aa670ed5c42d1</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_bc44aa6a9c4511107fa76694fccbf45a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 15:20:10</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>
